@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,197 +8,238 @@
 <title>Hunain Khatri | SS Indenters</title>
 
 <style>
-*{
-  box-sizing:border-box;
+
+* {
+    box-sizing: border-box;
 }
 
-body{
-  margin:0;
-  background:#eef2f5;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
-  color:#15202b;
+body {
+    margin: 0;
+    background: #eef2f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    color: #17212b;
 }
 
-.card{
-  max-width:480px;
-  min-height:100vh;
-  margin:auto;
-  background:#ffffff;
-  overflow:hidden;
+.card {
+    width: 100%;
+    max-width: 480px;
+    min-height: 100vh;
+    margin: auto;
+    background: #ffffff;
+    overflow: hidden;
 }
 
-/* PHOTO */
+/* PROFILE PHOTO */
 
-.photo{
-  width:100%;
-  height:330px;
-  object-fit:cover;
-  object-position:center 30%;
-  display:block;
+.photo-area {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background: #e8ecef;
 }
 
-/* CONTENT */
-
-.content{
-  padding:27px 24px 35px;
-  text-align:center;
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
 }
 
-h1{
-  margin:0;
-  font-size:32px;
-  font-weight:750;
-  letter-spacing:-0.5px;
+/* MAIN CONTENT */
+
+.content {
+    padding: 28px 24px 35px;
+    text-align: center;
 }
 
-.position{
-  margin-top:7px;
-  font-size:17px;
-  color:#58636d;
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 750;
+    letter-spacing: -0.5px;
 }
 
-.company{
-  margin-top:7px;
-  font-size:20px;
-  font-weight:800;
-  letter-spacing:1px;
+.position {
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #59646e;
 }
 
-.business{
-  margin:12px auto 25px;
-  max-width:340px;
-  color:#6b7680;
-  font-size:15px;
-  line-height:1.5;
+.company {
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
-/* BUTTONS */
-
-.save{
-  display:block;
-  width:100%;
-  padding:16px;
-  margin-bottom:13px;
-  background:#147d5b;
-  color:white;
-  text-decoration:none;
-  border-radius:13px;
-  font-size:17px;
-  font-weight:700;
+.business {
+    max-width: 360px;
+    margin: 13px auto 25px;
+    color: #6b7680;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
-.buttons{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:11px;
+/* SAVE CONTACT */
+
+.save-contact {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 13px;
+
+    background: #197052;
+    color: #ffffff;
+
+    text-decoration: none;
+    border-radius: 14px;
+
+    font-size: 17px;
+    font-weight: 700;
 }
 
-.button{
-  display:block;
-  padding:15px 5px;
-  background:#17212b;
-  color:white;
-  text-decoration:none;
-  border-radius:12px;
-  font-size:16px;
-  font-weight:650;
+/* CONTACT BUTTONS */
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 11px;
 }
 
-.whatsapp{
-  background:#128C7E;
+.button {
+    display: block;
+    padding: 15px 6px;
+
+    background: #17212b;
+    color: #ffffff;
+
+    text-decoration: none;
+    border-radius: 13px;
+
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.whatsapp {
+    background: #128C7E;
 }
 
 /* SLOGAN */
 
-.slogan{
-  margin-top:27px;
-  padding-top:21px;
-  border-top:1px solid #e5e8eb;
-  color:#697681;
-  font-size:14px;
-  font-style:italic;
-  line-height:1.5;
+.slogan {
+    margin-top: 28px;
+    padding-top: 21px;
+
+    border-top: 1px solid #e3e7ea;
+
+    color: #687580;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
 }
 
-.footer{
-  margin-top:18px;
-  font-size:11px;
-  color:#a1a8ae;
-  letter-spacing:1px;
+.footer {
+    margin-top: 18px;
+
+    color: #9aa3aa;
+    font-size: 11px;
+    letter-spacing: 1.5px;
 }
 
 </style>
 </head>
 
+
 <body>
 
 <div class="card">
 
-<img
-  src="hunain.jpg..jpg"
-  class="photo"
-  alt="Hunain Khatri">
+    <!-- PROFILE PHOTO -->
 
-<div class="content">
-
-<h1>Hunain Khatri</h1>
-
-<div class="position">
-Managing Director
-</div>
-
-<div class="company">
-SS INDENTERS
-</div>
-
-<div class="business">
-International Brokers of Pulses, Grains &amp; Oilseeds
-</div>
+    <div class="photo-area">
+        <img
+            src="hunain.jpg..jpg"
+            class="photo"
+            alt="Hunain Khatri">
+    </div>
 
 
-<a class="save"
-href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AN:Khatri;Hunain;;;%0AFN:Hunain%20Khatri%0AORG:SS%20Indenters%0ATITLE:Managing%20Director%0ATEL;TYPE=CELL:%2B923002755465%0AEMAIL:khatrihunain1@gmail.com%0AURL:https://www.linkedin.com/in/hunain-khatri-b1469141%0ANOTE:International%20Brokers%20of%20Pulses%2C%20Grains%20%26%20Oilseeds%0AEND:VCARD"
-download="Hunain-Khatri.vcf">
-＋ Save Contact
-</a>
+    <div class="content">
+
+        <!-- NAME -->
+
+        <h1>Hunain Khatri</h1>
+
+        <div class="position">
+            Managing Director
+        </div>
+
+        <div class="company">
+            SS INDENTERS
+        </div>
+
+        <div class="business">
+            International Brokers of Pulses, Grains &amp; Oilseeds
+        </div>
 
 
-<div class="buttons">
+        <!-- SAVE CONTACT -->
 
-<a class="button"
-href="tel:+923002755465">
-☎ Call
-</a>
-
-<a class="button whatsapp"
-href="https://wa.me/923002755465"
-target="_blank">
-WhatsApp
-</a>
-
-<a class="button"
-href="mailto:khatrihunain1@gmail.com">
-✉ Email
-</a>
-
-<a class="button"
-href="https://www.linkedin.com/in/hunain-khatri-b1469141"
-target="_blank">
-LinkedIn
-</a>
-
-</div>
+        <a
+        class="save-contact"
+        href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AN:Khatri;Hunain;;;%0AFN:Hunain%20Khatri%0AORG:SS%20Indenters%0ATITLE:Managing%20Director%0ATEL;TYPE=CELL:%2B923002755465%0AEMAIL:khatrihunain1@gmail.com%0AURL:https://www.linkedin.com/in/hunain-khatri-b1469141%0ANOTE:International%20Brokers%20of%20Pulses%2C%20Grains%20%26%20Oilseeds%0AEND:VCARD"
+        download="Hunain-Khatri.vcf">
+            ＋ Save Contact
+        </a>
 
 
-<div class="slogan">
-“Bridging Continents with the Best Pulses and Grains.”
-</div>
+        <!-- CONTACT BUTTONS -->
 
-<div class="footer">
-SS INDENTERS
-</div>
+        <div class="buttons">
 
-</div>
+            <a
+            class="button whatsapp"
+            href="https://wa.me/923002755465"
+            target="_blank">
+                WhatsApp
+            </a>
+
+            <a
+            class="button"
+            href="tel:+923002755465">
+                Call
+            </a>
+
+            <a
+            class="button"
+            href="mailto:khatrihunain1@gmail.com">
+                Email
+            </a>
+
+            <a
+            class="button"
+            href="https://www.linkedin.com/in/hunain-khatri-b1469141"
+            target="_blank">
+                LinkedIn
+            </a>
+
+        </div>
+
+
+        <!-- SLOGAN -->
+
+        <div class="slogan">
+            “Bridging Continents with the Best Pulses and Grains.”
+        </div>
+
+        <div class="footer">
+            SS INDENTERS
+        </div>
+
+    </div>
+
 </div>
 
 </body>
